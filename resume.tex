@@ -52,7 +52,7 @@
 		\parbox{\spacebox}{        % Box to align text
 		\textit{#1}}			   % Entry name (birth, address, etc.)
 		\hspace{2.5em} #2 \par}    % Entry value	
-		
+
 \newcommand{\EducationEntry}[4]{
 		\noindent \textbf{#1} \hfill      % Study
 		\colorbox{Black}{%
@@ -87,8 +87,7 @@
 \NewPart{Personal details}{}
 
 \PersonalEntry{Birth}{June 5, 1993}
-\PersonalEntry{Address}{Kopernikusstraße 71, 40225 Düsseldorf}
-\PersonalEntry{Phone}{0157 39494353}
+\PersonalEntry{Location}{Düsseldorf, Germany}
 \PersonalEntry{Mail}{\url{mail@simonzimmermann.com}}
 \PersonalEntry{Github}{\faGithub\space\url{github.com/SimonZimmer}}
 
@@ -118,22 +117,32 @@
 \SkillsEntry{Languages}{German (mother tongue)}
 \SkillsEntry{}{English (fluent)}
 \sepspace
-\SkillsEntry{Technology}{\textsc{C++14},
-                         CMake,
-                         Python,
-                         git,
-                         docker,
-                         POSIX,
-                         vim,
-                         \LaTeX}
+
+\SkillsEntry{Technology}{\textsc{C++14}}
+\SkillsEntry{}{CMake}
+\SkillsEntry{}{Python}
+\SkillsEntry{}{git}
+\SkillsEntry{}{docker}
+\SkillsEntry{}{POSIX}
+\SkillsEntry{}{vim}
+\SkillsEntry{}{\LaTeX}
 \sepspace
-\SkillsEntry{Frameworks}{googletest,
-                         JUCE,
-                         flask,
-                         tensorflow,
-                         keras}
+
+\SkillsEntry{Frameworks}{googletest}
+\SkillsEntry{}{google-benchmark}
+\SkillsEntry{}{JUCE}
+\SkillsEntry{}{Jenkins}
+\SkillsEntry{}{pybind11}
+\SkillsEntry{}{flask}
+\SkillsEntry{}{numpy}
+\SkillsEntry{}{matplotlib}
+\SkillsEntry{}{tensorflow}
+\SkillsEntry{}{keras}
 \sepspace
-\SkillsEntry{Other}{electronic music production} 
+
+\SkillsEntry{Other}{music production}
+\SkillsEntry{}{modular synthesizer}
+\SkillsEntry{}{esoteric programming lanuages}
 
 \end{document}
 
