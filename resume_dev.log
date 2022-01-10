@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2021.5.30)  30 MAY 2021 09:25
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2022.1.10)  10 JAN 2022 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume.tex
-(./resume.tex
+**resume_dev.tex
+(./resume_dev.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 5 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -568,8 +568,8 @@ les
 )
 \spacebox=\skip54
 
-No file resume.aux.
-\openout1 = `resume.aux'.
+No file resume_dev.aux.
+\openout1 = `resume_dev.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
@@ -716,14 +716,14 @@ Overfull \hbox (7.07138pt too wide) in paragraph at lines 133--133
 []\EU1/lmr/m/it/10.95 Frameworks 
  []
 
-[2] (/latex/docs/resume.aux) ) 
+[2] (/latex/docs/resume_dev.aux) ) 
 Here is how much of TeX's memory you used:
  17567 strings out of 495597
- 342706 string characters out of 6186290
- 429485 words of memory out of 5000000
+ 342734 string characters out of 6186290
+ 429489 words of memory out of 5000000
  20624 multiletter control sequences out of 15000+600000
  10028 words of font info for 49 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 51i,8n,66p,10388b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,8n,66p,10392b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /latex/docs/resume.pdf (2 pages).
+Output written on /latex/docs/resume_dev.pdf (2 pages).
