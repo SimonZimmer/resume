@@ -4,8 +4,8 @@
 My resumes built with LaTeX and published through Github Pages.
 
 Developer resume:
-https://simonzimmer.github.io/resume_dev/
+https://docs.google.com/gview?url=https://github.com/SimonZimmer/resume/raw/gh-pages/resume_dev.pdf
 
 Artist resume:
-https://simonzimmer.github.io/resume_art/
+https://docs.google.com/gview?url=https://github.com/SimonZimmer/resume/raw/gh-pages/resume_art.pdf
 
