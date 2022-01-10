@@ -18,7 +18,8 @@ jobs:
       - name: Render pdf
         run: |
             docker build -t ${IMAGE_NAME} .
-            docker run -v ${PWD}/:/latex/ ${IMAGE_NAME} bash -c "xelatex -interaction=nonstopmode -output-directory=/latex/docs resume.tex"
+            docker run -v ${PWD}/:/latex/ ${IMAGE_NAME} bash -c "xelatex -interaction=nonstopmode -output-directory=/latex/docs resume_dev.tex"
+            docker run -v ${PWD}/:/latex/ ${IMAGE_NAME} bash -c "xelatex -interaction=nonstopmode -output-directory=/latex/docs resume_art.tex"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
