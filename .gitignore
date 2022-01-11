@@ -277,3 +277,5 @@ TSWLatexianTemp*
 
 # PDF
 *.pdf
+
+.DS_Store
