@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - anastasia
 
 env:
   IMAGE_NAME: simonzimmer/resume
