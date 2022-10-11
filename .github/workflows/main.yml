@@ -3,7 +3,7 @@ name: render_pdf
 on:
   push:
     branches:
-      - main
+      - stephi
 
 env:
   IMAGE_NAME: simonzimmer/resume
