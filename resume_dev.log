@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2022.9.28)  28 SEP 2022 13:14
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2022.10.11)  11 OCT 2022 18:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,19 +706,15 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 91.
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-]
-Overfull \hbox (9.72128pt too wide) in paragraph at lines 129--129
-[]\EU1/lmr/m/it/10.95 Technologies 
- []
-
-[2] [3] (/latex/docs/resume_dev.aux) ) 
+] [2]
+(/latex/docs/resume_dev.aux) ) 
 Here is how much of TeX's memory you used:
- 17567 strings out of 495597
- 342734 string characters out of 6186290
- 429489 words of memory out of 5000000
- 20624 multiletter control sequences out of 15000+600000
- 10028 words of font info for 49 fonts, out of 8000000 for 9000
+ 17561 strings out of 495597
+ 342591 string characters out of 6186289
+ 428489 words of memory out of 5000000
+ 20622 multiletter control sequences out of 15000+600000
+ 10012 words of font info for 47 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  51i,8n,66p,10392b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /latex/docs/resume_dev.pdf (3 pages).
+Output written on /latex/docs/resume_dev.pdf (2 pages).
