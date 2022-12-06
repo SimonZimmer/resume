@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2022.12.6)  6 DEC 2022 16:31
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2022.12.6)  6 DEC 2022 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,7 +736,7 @@ ne 95.
 
 [1
 
-] [2]
+]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -766,7 +766,7 @@ Overfull \hbox (4.9713pt too wide) in paragraph at lines 129--129
 []\TU/lmr/m/it/10.95 Technologies 
  []
 
-[3] [4] (/latex/docs/resume_dev.aux) ) 
+[2] [3] (/latex/docs/resume_dev.aux) ) 
 Here is how much of TeX's memory you used:
  16082 strings out of 494981
  344390 string characters out of 6177557
@@ -776,4 +776,4 @@ Here is how much of TeX's memory you used:
  38 hyphenation exceptions out of 8191
  51i,8n,64p,10381b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /latex/docs/resume_dev.pdf (4 pages).
+Output written on /latex/docs/resume_dev.pdf (3 pages).
