@@ -6,6 +6,3 @@ My resumes built with dockerized LaTeX:
 Developer resume:
 https://github.com/SimonZimmer/resume/blob/gh-pages/resume_dev.pdf
 
-Artist resume:
-https://github.com/SimonZimmer/resume/blob/gh-pages/resume_art.pdf
-
