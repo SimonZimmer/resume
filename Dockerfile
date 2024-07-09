@@ -15,7 +15,8 @@ RUN apt-get update && \
   texlive-lang-portuguese \
   texlive-fonts-extra \
   texlive-xetex \
-  fonts-font-awesome && \
+  fonts-font-awesome \
+  fontconfig && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
