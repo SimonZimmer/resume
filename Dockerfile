@@ -10,7 +10,7 @@ RUN apt-get update && \
   lmodern \
   make \
   texlive-fonts-recommended \
-  texlive-generic-recommended \
+  texlive-latex-recommended \
   texlive-lang-english \
   texlive-lang-portuguese \
   texlive-fonts-extra \
