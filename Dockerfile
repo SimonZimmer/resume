@@ -14,8 +14,12 @@ RUN apt-get update && \
   texlive-lang-english \
   texlive-lang-portuguese \
   texlive-fonts-extra \
-  texlive-xetex && \
+  texlive-xetex \
+  fonts-font-awesome && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Update font cache
+RUN fc-cache -f -v
 
 WORKDIR /latex
