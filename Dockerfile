@@ -1,4 +1,4 @@
-FROM debian:9
+FROM debian:11
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -10,12 +10,17 @@ RUN apt-get update && \
   lmodern \
   make \
   texlive-fonts-recommended \
-  texlive-generic-recommended \
+  texlive-latex-recommended \
   texlive-lang-english \
   texlive-lang-portuguese \
   texlive-fonts-extra \
-  texlive-xetex && \
+  texlive-xetex \
+  fonts-font-awesome \
+  fontconfig && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+# Update font cache
+RUN fc-cache -f -v
 
 WORKDIR /latex

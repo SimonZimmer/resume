@@ -21,7 +21,7 @@ jobs:
             docker run -v ${PWD}/:/latex/ ${IMAGE_NAME} bash -c "xelatex -interaction=nonstopmode -output-directory=/latex/docs resume_dev.tex"
             docker run -v ${PWD}/:/latex/ ${IMAGE_NAME} bash -c "xelatex -interaction=nonstopmode -output-directory=/latex/docs resume_art.tex"
 
-      - name: Deploy 🚀
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.SECRET_GITHUB_TOKEN }}
