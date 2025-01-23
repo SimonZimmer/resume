@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2025.1.23)  23 JAN 2025 16:18
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2025.1.23)  23 JAN 2025 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,9 +218,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language5) on input line 105.
+(babel)             (\language3) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language5) on input line 108.
+(babel)             (\language3) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -625,7 +625,6 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 124.
 
-[2]
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -634,6 +633,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 128.
 
+[2]
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -651,10 +651,10 @@ Overfull \hbox (4.9713pt too wide) in paragraph at lines 140--140
 Here is how much of TeX's memory you used:
  10731 strings out of 479155
  234481 string characters out of 5873526
- 725244 words of memory out of 5000000
+ 724244 words of memory out of 5000000
  30189 multiletter control sequences out of 15000+600000
  409802 words of font info for 60 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 111i,5n,116p,10612b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,6n,116p,10612b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /latex/docs/resume_dev.pdf (3 pages).
