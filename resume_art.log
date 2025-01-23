@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2024.7.9)  9 JUL 2024 13:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2025.1.23)  23 JAN 2025 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,9 +218,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language3) on input line 105.
+(babel)             (\language5) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language3) on input line 108.
+(babel)             (\language5) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
@@ -802,7 +802,7 @@ Package rerunfilecheck Info: Checksums for `resume_art.out':
  ) 
 Here is how much of TeX's memory you used:
  17894 strings out of 479155
- 339452 string characters out of 5873527
+ 339452 string characters out of 5873526
  848578 words of memory out of 5000000
  37248 multiletter control sequences out of 15000+600000
  410138 words of font info for 58 fonts, out of 8000000 for 9000
