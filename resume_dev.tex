@@ -5,9 +5,11 @@
 \usepackage{geometry}
 \textheight=650pt
 \usepackage{url}
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage[export]{adjustbox}
 \usepackage{sectsty}
+\usepackage{hyperref}
+\usepackage{amsmath}
 
 \frenchspacing
 \pagestyle{empty}
@@ -28,21 +30,20 @@
         \par \normalsize \normalfont}
 		
 \newcommand{\MySlogan}[1]{
-		\large \usefont{OT1}{phv}{m}{n}\hfill \text{#1}
+		\large \usefont{OT1}{phv}{m}{n}\hfill #1
 		\par \normalsize \normalfont}
 
 \newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
 
 \newcommand{\PersonalEntry}[2]{
 		\noindent\hangindent=0em\hangafter=0
-		\parbox{\spacebox}{
-		\text{#1}}
+		\parbox{\spacebox}{#1}
 		\hspace{2.5em} #2 \par}
 
 \newcommand{\SkillsEntry}[4]{
 		\noindent \textbf{#1} \hfill
 		\colorbox{White}{\color{White}#2} \par
-		\noindent \text{#3} \par
+		\noindent #3 \par
 		\noindent\hangindent=2em\hangafter=0 \small #4
 		\normalsize \par}
 
@@ -51,14 +52,14 @@
 		\colorbox{Black}{
 			\parbox{6em}{
 			\hfill\color{White}#2}} \par
-		\noindent \text{#3} \par
+		\noindent #3 \par
 		\noindent\hangindent=2em\hangafter=0 \small #4
 		\normalsize \par}
 
 \newcommand{\WorkEntry}[4]{
 		\noindent \textbf{#1} \hfill
 		\colorbox{Black}{\color{White}#2} \par
-		\noindent \text{#3} \par
+		\noindent #3 \par
 		\noindent\hangindent=2em\hangafter=0 \small #4
 		\normalsize \par}
 
@@ -66,7 +67,7 @@
 \begin{document}
 
 \noindent
-\begin{minipage}[t]{3cm}
+\begin{minipage}[t]{3.8cm}
     \includegraphics[height=4cm, valign=t]{images/portrait}
 \end{minipage}
 \hspace{1em}
@@ -110,15 +111,14 @@
 \sepspace
 \EducationEntry{M.Sc. Music Informatics}{2018}{University of Music Karlsruhe}{Guest Semester}
 \sepspace
-\EducationEntry{B.Eng. Media Engineering}{2012-2017}{University of Applied Sciences Düsseldorf}{Thesis title: 'A Concept for Implementing Room Acoustic Material Properties in the Context of a 3D-Audio Engine'}
+\EducationEntry{B.Eng. Media Engineering}{2012-2017}{University of Applied Sciences Düsseldorf}{Thesis title: 'A Concept for Implementing Room Acoustic Properties in the Context of a 3D-Audio Engine'}
 
 %%% ------------------------------------------------------------
 \NewPart{Skills}{}
 \SkillsEntry{Languages}{}{}{German (native), English (fluent)}
 \sepspace
-\SkillsEntry{Technologies}{}{}{\textsc{C++17}, C99, boost, CMake, conan, Python, googletest/googlemock, google benchmark, Pure Data (Pd), Azure DevOps, Github Actions, Jenkins, git, docker, JUCE, pybind11, flask, wagtail, MATLAB, JUCE, \LaTeX, Linux, nvim/vim}
+\SkillsEntry{Technologies}{}{}{\textsc{C++17}, C99, boost, CMake, conan, Python, googletest/googlemock, google benchmark, Pure Data (Pd), Azure DevOps, Github Actions, Jenkins, git, docker, JUCE, pybind11, flask, wagtail, MATLAB, \LaTeX, Linux, nvim/vim}
 \sepspace
-\SkillsEntry{Other}{}{}{Music Production, Modular Synthesizer, Esoteric Programming Lanuages (Orca, TidalCylces)}
+\SkillsEntry{Other}{}{}{Music Production, Modular Synthesizer, Esoteric Programming Languages (Orca, TidalCycles)}
 
 \end{document}
-
