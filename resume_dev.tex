@@ -1,22 +1,22 @@
-\documentclass[paper=a4,fontsize=11pt]{scrartcl}
+\documentclass[paper=a4,fontsize=9pt]{scrartcl}
 \usepackage[english]{babel}
 \usepackage{graphicx}
 \usepackage[svgnames]{xcolor}
 \usepackage{geometry}
-\textheight=650pt
+\textheight=700pt
 \usepackage{url}
 \usepackage{fontawesome5}
 \usepackage[export]{adjustbox}
 \usepackage{sectsty}
 \usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage{enumitem}
 
-\frenchspacing
 \pagestyle{empty}
 \sectionfont
 {
     \usefont{OT1}{phv}{b}{n}
-    \sectionrule{0pt}{0pt}{-5pt}{3pt}
+    \sectionrule{0pt}{0pt}{-5pt}{1pt}
 }
 
 %%% Macros
@@ -44,24 +44,21 @@
 		\noindent \textbf{#1} \hfill
 		\colorbox{White}{\color{White}#2} \par
 		\noindent #3 \par
-		\noindent\hangindent=2em\hangafter=0 \small #4
+		\noindent\hangindent=2em\hangafter=0 \small
+        \begin{itemize}[itemsep=0pt, topsep=0pt, leftmargin=1.2em, label={}]
+            \item #4
+        \end{itemize}
 		\normalsize \par}
 
-\newcommand{\EducationEntry}[4]{
-		\noindent \textbf{#1} \hfill
-		\colorbox{Black}{
-			\parbox{6em}{
-			\hfill\color{White}#2}} \par
-		\noindent #3 \par
-		\noindent\hangindent=2em\hangafter=0 \small #4
-		\normalsize \par}
-
-\newcommand{\WorkEntry}[4]{
-		\noindent \textbf{#1} \hfill
-		\colorbox{Black}{\color{White}#2} \par
-		\noindent #3 \par
-		\noindent\hangindent=2em\hangafter=0 \small #4
-		\normalsize \par}
+\newcommand{\ExperienceEntry}[4]{
+	\noindent \textbf{#1} \hfill
+	\colorbox{Grey}{
+		\parbox{6em}{
+		\hfill\color{White}#2}} \par
+	\noindent #3 \par
+    \noindent \small #4
+	\normalsize \par
+}
 
 %%% ------------------------------------------------------------
 \begin{document}
@@ -77,7 +74,8 @@
     \sepspace
     \sepspace
     \sepspace
-
+    \sepspace
+    \sepspace
     \PersonalEntry{Birth}{June 5, 1993}
     \PersonalEntry{Location}{Düsseldorf, Germany}
     \PersonalEntry{Mail}{\url{mail@simonzimmermann.com}}
@@ -86,39 +84,95 @@
 
 %%% ------------------------------------------------------------
 \NewPart{Work Experience}{}
-\EducationEntry{C++ Backend Software Developer}{2022-present}{Dear Reality GmbH, Full-time}{Backend research and development of DSP-algorithms and API design using C, C++ and Python}
+\ExperienceEntry{Dear Reality GmbH}{2022-present}{C/C++ Backend Software Developer}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Designed proprietary C-API based on DSP-prototypes using C99, C++17.
+        \item Applied DSP-research in prototypes for internal evaluation using Python and MATLAB.
+        \item Researched new developments in Digital Signal Processing related to Spatial audio.
+        \item Developed custom API-wrapping tooling to facilitate rapid prototyping using C99 and Pure Data (Pd).
+        \item Maintained DevOps pipelines using Microsoft Azure for Continuous Integration and Delivery of proprietary APIs and internal packages.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{C++ Fullstack Software Developer}{2020-present}{Dear Reality GmbH, Full-time}{Full-stack development of real-time audio applications following test-driven development, modern C++ and agile project management principles}
+\ExperienceEntry{Dear Reality GmbH}{2020-2022}{C++ Fullstack Software Developer}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Full-stack development of real-time audio applications following test-driven development, modern C++ and agile project management principles.
+        \item Designed cross-platform file codecs and internal tooling for maintaining data updates using FlatBuffers, Python, and Docker.
+        \item Implemented Google Analytics and license-management for audio plugins
+        \item Maintained self-hosted Jenkins build pipeline for Continuous Integration and Delivery.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{Researcher/QA Engineer (Working Student)}{2017-2020}{Dear Reality GmbH, Part-time}{Research and development of DSP prototypes, quality assurance, and test automation development}
+\ExperienceEntry{Dear Reality GmbH}{2017-2020}{Researcher/QA Engineer}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Full-stack development of real-time audio applications following test-driven development, modern C++ and agile project management principles.
+        \item Developed framework for automated real-time audio plugin testing.
+        \item Developed DSP prototypes related to spatial audio.
+        \item Tested real-time audio tools for quality assurance.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{Room-Acoustics Engineer (Working Student)}{2016-2017}{ISRW-Klapdor, Part-time}{Simulation of room-acoustic properties and in-situ acoustic measurements}
+\ExperienceEntry{ISRW-Klapdor}{2016-2017}{Room-Acoustics Engineer}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Predictive simulation of room properties during construction to meet regulatory needs for speech intelligibility and thermal insulation in buildings.
+        \item In-situ measurement and evaluation of room-acoustic properties during construction.
+    \end{itemize}
+}
 
 %%% ------------------------------------------------------------
 \NewPart{Projects}{}
-\EducationEntry{dearVR Exoverb}{2022}{Backend Developer}{Developed the DAW-plugin "Exoverb," which uses synthesized reverb impulse responses and additional processing to generate realistic reverberation effects}
+\ExperienceEntry{dearVR Exoverb}{2022}{C/C++ Developer}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Developed Reverb plugin with enhanced spatial perception that simulates acoustic scenes with three-dimensional depth and width using synthesized spatial room impulse responses.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{Team Split Facilitation}{2022}{Backend Developer, DevOps Engineer}{Facilitated the transition from a single-team solution to a frontend/backend split. Extended the technology stack with Conan, Microsoft Azure, Pure Data, and C}
+\ExperienceEntry{Team Split Facilitation}{2022}{C/C++ Developer, DevOps Engineer}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Transition from a single-team full-stack workflow to a frontend/backend team split with modernized DevOps infrastructure for continuous integration from an on-premise solution to a cloud-based solution.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{dearVR MIX/MONITOR}{2021}{Full Stack Developer}{Developed the multichannel DAW-plugins "dearVR MIX" and "dearVR MONITOR," which utilize headphone calibration, room simulation and binauralization to virtualize studio environments}
+\ExperienceEntry{dearVR MIX/MONITOR}{2021}{C++ Full Stack Developer}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Developed the multichannel immersive headphone mixing plugins "dearVR MIX" and "dearVR MONITOR" which utilize headphone calibration, room simulation, and binauralization to virtualize studio environments. Supports adjustable virtual mix rooms and 26 multi-channel loudspeaker formats up to 9.1.6.
+    \end{itemize}
+}
 
 \NewPart{Publication}{}
-\EducationEntry{Co-Author}{2021}{Conference Paper}{Immersive and 3D Audio: from Architecture to Automotive (I3DA): "Machine Learning-Based Room Classification for Selecting Binaural Room Impulse Responses in Augmented Reality Applications"}
+\ExperienceEntry{Co-Author}{2021}{Conference Paper}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Immersive and 3D Audio: from Architecture to Automotive (I3DA): "Machine Learning-Based Room Classification for Selecting Binaural Room Impulse Responses in Augmented Reality Applications".
+    \end{itemize}
+}
 
 %%% ------------------------------------------------------------
 \NewPart{Education}{}
-\EducationEntry{M.Sc. Media Informatics}{2018-2020}{University of Applied Sciences Düsseldorf}{Thesis title: 'Scalable Modelling of Room Acoustic Characteristics for AR-devices on the Basis of Visual Information Using Deep Learning' - honors degree}
+\ExperienceEntry{M.Sc. Media Informatics}{2018-2020}{University of Applied Sciences, Düsseldorf}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Thesis title: 'Scalable Modelling of Room Acoustic Characteristics for AR devices on the Basis of Visual Information Using Deep Learning' - honors degree.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{M.Sc. Music Informatics}{2018}{University of Music Karlsruhe}{Guest Semester}
+\ExperienceEntry{M.Sc. Music Informatics}{2018}{University of Music, Karlsruhe}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Guest Semester.
+    \end{itemize}
+}
 \sepspace
-\EducationEntry{B.Eng. Media Engineering}{2012-2017}{University of Applied Sciences Düsseldorf}{Thesis title: 'A Concept for Implementing Room Acoustic Properties in the Context of a 3D-Audio Engine'}
+\ExperienceEntry{B.Eng. Media Engineering}{2012-2017}{University of Applied Sciences, Düsseldorf}{
+    \begin{itemize}[leftmargin=1.2em, label={}]
+        \item Thesis title: 'A Concept for Implementing Room Acoustic Properties in the Context of a 3D-Audio Engine'.
+    \end{itemize}
+}
 
 %%% ------------------------------------------------------------
 \NewPart{Skills}{}
-\SkillsEntry{Languages}{}{}{German (native), English (fluent)}
+\SkillsEntry{Technologies}{}{}{\textsc{C++17}, C99, Boost, CMake, Conan, Python, gtest/gmock, Google Benchmark, Pure Data (Pd), Azure DevOps, Github Actions, Jenkins, Git, Docker, JUCE, pybind11, Flask, Wagtail, MATLAB, \LaTeX, Linux, nvim/vim, Google Analytics}
 \sepspace
-\SkillsEntry{Technologies}{}{}{\textsc{C++17}, C99, boost, CMake, conan, Python, googletest/googlemock, google benchmark, Pure Data (Pd), Azure DevOps, Github Actions, Jenkins, git, docker, JUCE, pybind11, flask, wagtail, MATLAB, \LaTeX, Linux, nvim/vim}
+\SkillsEntry{Languages}{}{}{German (native), English (fluent)}
 \sepspace
 \SkillsEntry{Other}{}{}{Music Production, Modular Synthesizer, Esoteric Programming Languages (Orca, TidalCycles)}
 
 \end{document}
+
