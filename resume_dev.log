@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2025.2.21)  21 FEB 2025 10:02
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2025.2.22)  22 FEB 2025 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,10 +729,10 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 122.
+ne 123.
 
 
-Overfull \hbox (0.69827pt too wide) in paragraph at lines 127--127
+Overfull \hbox (0.69827pt too wide) in paragraph at lines 128--128
 []\TU/lmr/m/n/8 Developed Reverb plugin with enhanced spatial perception that s
 imulates acoustic scenes with three-dimensional
  []
@@ -743,7 +743,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 141.
+ne 142.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
@@ -758,7 +758,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 149.
+ne 150.
 
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
@@ -766,7 +766,7 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 169.
+ne 170.
 
 [2] (/latex/docs/resume_dev.aux)
 
