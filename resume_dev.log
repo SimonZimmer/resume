@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2026.3.12)  12 MAR 2026 19:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2026.6.1)  1 JUN 2026 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,11 +784,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--189
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 194--194
 
  []
@@ -812,11 +807,11 @@ Package rerunfilecheck Info: Checksums for `resume_dev.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 16817 strings out of 479155
- 270323 string characters out of 5873526
+ 16804 strings out of 479155
+ 270151 string characters out of 5873527
  757873 words of memory out of 5000000
- 36156 multiletter control sequences out of 15000+600000
- 410351 words of font info for 59 fonts, out of 8000000 for 9000
+ 36149 multiletter control sequences out of 15000+600000
+ 409208 words of font info for 54 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  111i,5n,116p,10632b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
 
