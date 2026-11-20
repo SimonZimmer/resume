@@ -22,7 +22,7 @@
 %%% Macros
 %%% ------------------------------------------------------------
 \newlength{\spacebox}
-\settowidth{\spacebox}{8888888888}
+\settowidth{\spacebox}{Observability}
 \newcommand{\sepspace}{\vspace*{1em}}
 
 \newcommand{\MyName}[1]{
@@ -70,7 +70,7 @@
 \hspace{1em}
 \begin{minipage}[t]{0.7\textwidth}
     \MyName{Simon Zimmermann}
-    \MySlogan{Software Developer}
+    \MySlogan{Cloud \& Platform Engineer / DevOps}
     \sepspace
     \sepspace
     \sepspace
@@ -83,74 +83,70 @@
 \end{minipage}
 
 %%% ------------------------------------------------------------
-\NewPart{Work Experience}{}
-\ExperienceEntry{PRODYNA SE}{2025-present}{IT Consultant}{
-    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
-        \item Consulting on cloud-native infrastructure, Kubernetes, and DevOps practices.
-        \item Designing and implementing monitoring solutions for distributed systems.
-        \item Supporting clients in adopting modern infrastructure and observability tooling.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{Dear Reality GmbH}{2022-2025}{C/C++ Backend Software Developer}{
-    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
-        \item Designed proprietary C-API based on DSP-prototypes using C99, C++17.
-        \item Applied DSP-research in prototypes for internal evaluation using Python and MATLAB.
-        \item Researched new developments in Digital Signal Processing related to Spatial audio.
-        \item Developed custom API-wrapping tooling to facilitate rapid prototyping using C99 and Pure Data (Pd).
-        \item Maintained DevOps pipelines using Microsoft Azure for Continuous Integration and Delivery of proprietary APIs and internal packages.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{Dear Reality GmbH}{2020-2022}{C++ Fullstack Software Developer}{
-    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
-        \item Full-stack development of real-time audio applications following test-driven development, modern C++ and agile project management principles.
-        \item Designed cross-platform file codecs and internal tooling for maintaining data updates using FlatBuffers, Python, and Docker.
-        \item Implemented Google Analytics and license-management for audio plugins
-        \item Maintained self-hosted Jenkins build pipeline for Continuous Integration and Delivery.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{Dear Reality GmbH}{2017-2020}{Researcher/QA Engineer}{
-    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
-        \item Full-stack development of real-time audio applications following test-driven development, modern C++ and agile project management principles.
-        \item Developed framework for automated real-time audio plugin testing.
-        \item Developed DSP prototypes related to spatial audio.
-        \item Tested real-time audio tools for quality assurance.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{ISRW-Klapdor}{2016-2017}{Room-Acoustics Engineer}{
-    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
-        \item Predictive simulation of room properties during construction to meet regulatory needs for speech intelligibility and thermal insulation in buildings.
-        \item In-situ measurement and evaluation of room-acoustic properties during construction.
-    \end{itemize}
-}
+\NewPart{Profile}{}
+\noindent Cloud and platform engineer with a software engineering background. I design and run Azure Landing Zones, AKS platforms and observability stacks as Infrastructure as Code with Terraform and Terragrunt. Before consulting, I spent 8 years building C/C++ software and the CI/CD pipelines that delivered it. That experience shapes how I build platforms: test-driven, automated and designed for the developers who use them. Certified Kubernetes Application Developer (CKAD) and Azure Administrator Associate (AZ-104).
 
 %%% ------------------------------------------------------------
-\NewPart{Projects}{}
-\ExperienceEntry{dearVR Exoverb}{2022}{C/C++ Developer}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Developed Reverb plugin with enhanced spatial perception that simulates acoustic scenes with three-dimensional depth and width using synthesized spatial room impulse responses.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{Team Split Facilitation}{2022}{C/C++ Developer, DevOps Engineer}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Transition from a single-team full-stack workflow to a frontend/backend team split with modernized DevOps infrastructure for continuous integration from an on-premise solution to a cloud-based solution.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{dearVR MIX/MONITOR}{2021}{C++ Full Stack Developer}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Developed the multichannel immersive headphone mixing plugins "dearVR MIX" and "dearVR MONITOR" which utilize headphone calibration, room simulation, and binauralization to virtualize studio environments. Supports adjustable virtual mix rooms and 26 multi-channel loudspeaker formats up to 9.1.6.
-    \end{itemize}
-}
+\NewPart{Core Skills}{}
+\PersonalEntry{Cloud}{Microsoft Azure, Azure Landing Zones, Cloud Adoption Framework (CAF), hub-spoke networking}
+\PersonalEntry{Kubernetes}{Kubernetes (CKAD), AKS, Helm, Argo CD, Flux, Docker}
+\PersonalEntry{IaC}{Terraform, Terragrunt}
+\PersonalEntry{CI/CD}{Azure DevOps Pipelines, GitHub Actions, Jenkins, Git}
+\PersonalEntry{Observability}{Grafana LGTM stack (Loki, Grafana, Tempo, Mimir), Datadog}
+\PersonalEntry{Scripting}{Python, Bash}
+\PersonalEntry{Software Eng.}{C++17, C99, CMake, Conan, gtest/gmock, test-driven development}
+\PersonalEntry{Practices}{Linux, Scrum/Kanban, Jira, Confluence}
+\PersonalEntry{Languages}{German (native), English (fluent)}
 
-\NewPart{Publication}{}
-\ExperienceEntry{Co-Author}{2021}{Conference Paper}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Immersive and 3D Audio: from Architecture to Automotive (I3DA): "Machine Learning-Based Room Classification for Selecting Binaural Room Impulse Responses in Augmented Reality Applications".
+%%% ------------------------------------------------------------
+\NewPart{Certifications}{}
+\ExperienceEntry{Certified Kubernetes Application Developer (CKAD)}{2026}{Cloud Native Computing Foundation (CNCF)}{}
+\sepspace
+\ExperienceEntry{Microsoft Certified: Azure Administrator Associate (AZ-104)}{2025}{Microsoft}{}
+\sepspace
+\ExperienceEntry{GitHub Certified: GitHub Copilot}{2026}{GitHub}{}
+
+%%% ------------------------------------------------------------
+\NewPart{Work Experience}{}
+\ExperienceEntry{PRODYNA SE}{2025-present}{IT Consultant: Cloud \& Platform Engineering}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Worked on many client projects for enterprises in healthcare IT, energy and other sectors, which gave me broad insight into different approaches to cloud-native enterprise solutions.
+        \item Designed and implemented Azure Landing Zones end-to-end, covering all Cloud Adoption Framework design areas: architecture, identity, networking, security, governance, management and platform automation.
+        \item Built and operated AKS-based Kubernetes platforms for application teams.
+        \item Delivered all infrastructure as code with Terraform and Terragrunt, through automated CI/CD pipelines.
+        \item Built a self-hosted Grafana LGTM stack (Loki, Grafana, Tempo, Mimir) for metrics, logs and traces.
+        \item Implemented monitoring and alerting with Datadog for distributed systems.
+    \end{itemize}
+}
+\sepspace
+\ExperienceEntry{Dear Reality GmbH}{2022-2025}{Back End Developer}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Maintained the Azure DevOps CI/CD pipelines that built, tested and delivered proprietary APIs and internal packages.
+        \item Migrated CI from an on-premise Jenkins setup to cloud-based Azure DevOps as part of a frontend/backend team split.
+        \item Designed a proprietary C-API using C99 and C++17, with Conan for dependency management.
+        \item Built custom API-wrapping tools in C99 and Pure Data (Pd) to speed up prototyping.
+    \end{itemize}
+}
+\sepspace
+\ExperienceEntry{Dear Reality GmbH}{2020-2022}{Full Stack Software Developer}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Maintained a self-hosted Jenkins pipeline for continuous integration and delivery.
+        \item Built containerized internal tooling for data updates and cross-platform file codecs using Docker, Python and FlatBuffers.
+        \item Built real-time audio applications in modern C++ using test-driven development and Scrum.
+        \item Implemented license management and Google Analytics for audio plugins.
+    \end{itemize}
+}
+\sepspace
+\ExperienceEntry{Dear Reality GmbH}{2017-2020}{Audio DSP Researcher / QA Engineer (Working Student)}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Built a framework for automated testing of real-time audio plugins.
+        \item Developed DSP prototypes for spatial audio and tested products for quality assurance.
+    \end{itemize}
+}
+\sepspace
+\ExperienceEntry{ISRW-Klapdor}{2016-2017}{Room-Acoustics Engineer (Working Student)}{
+    \begin{itemize}[itemsep=0pt, topsep=1pt, leftmargin=1.2em]
+        \item Simulated, measured and evaluated room-acoustic properties during building construction.
     \end{itemize}
 }
 
@@ -158,58 +154,14 @@
 \NewPart{Education}{}
 \ExperienceEntry{M.Sc. Media Computer Science}{2018-2020}{University of Applied Sciences, Düsseldorf}{
     \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Thesis title: 'Scalable Modelling of Room Acoustic Characteristics for AR devices on the Basis of Visual Information Using Deep Learning' - honors degree.
+        \item Honors degree (1.0). Thesis on deep-learning-based room-acoustics modelling for AR devices.
     \end{itemize}
 }
 \sepspace
-\ExperienceEntry{Guest Semester: M.Sc. Music Computer Science}{2018}{University of Music, Karlsruhe}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Focus on machine learning and music information retrieval.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{B.Eng. Media Engineering}{2012-2017}{University of Applied Sciences, Düsseldorf}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Thesis title: 'A Concept for Implementing Room Acoustic Properties in the Context of a 3D-Audio Engine'.
-    \end{itemize}
-}
+\ExperienceEntry{B.Eng. Media Engineering}{2012-2017}{University of Applied Sciences, Düsseldorf}{}
 
 %%% ------------------------------------------------------------
-\NewPart{Skills}{}
-\SkillsEntry{Technologies}{}{}{
-    7 years: \\
-        \textsc{C++17}, C99, Boost, CMake, Python, gtest/gmock, Azure DevOps, Git, Docker, JUCE, nvim/vim \\
-        \\
-    3 years: \\
-        Microsoft Azure, Kubernetes, Terraform/Terragrunt, Azure-DevOps, Jenkins, Linux \\
-        \\
-    1 year: \\
-        Github Actions, Unreal Engine
-        \\
-}
-
-\SkillsEntry{Other}{}{}{
-    6 years: \\
-        agile workflows, Scrum/Kanban, Jira, Confluence, quality assurance\\
-}
-
-\sepspace
-\SkillsEntry{Languages}{}{}{German (native), English (fluent)}
-\sepspace
-
-%%% ------------------------------------------------------------
-\NewPart{Certifications}{}
-\ExperienceEntry{Microsoft Certified: Azure Developer Associate (AZ-204)}{2025}{Microsoft}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Certified in developing cloud solutions on Microsoft Azure.
-    \end{itemize}
-}
-\sepspace
-\ExperienceEntry{GitHub Certified: GitHub Copilot}{2025}{GitHub}{
-    \begin{itemize}[leftmargin=1.2em, label={}]
-        \item Certified in using GitHub Copilot for AI-assisted software development.
-    \end{itemize}
-}
+\NewPart{Publication}{}
+\noindent Co-Author (2021), I3DA conference: ``Machine Learning-Based Room Classification for Selecting Binaural Room Impulse Responses in Augmented Reality Applications''.
 
 \end{document}
-
